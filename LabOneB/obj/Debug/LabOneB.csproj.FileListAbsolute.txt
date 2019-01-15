@@ -1,0 +1,5 @@
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\LabOneB\bin\Debug\LabOneB.exe
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\LabOneB\bin\Debug\LabOneB.pdb
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\LabOneB\obj\Debug\LabOneB.csprojResolveAssemblyReference.cache
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\LabOneB\obj\Debug\LabOneB.exe
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\LabOneB\obj\Debug\LabOneB.pdb
