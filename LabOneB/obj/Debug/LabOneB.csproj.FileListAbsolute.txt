@@ -3,3 +3,8 @@ C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\LabOneB\bin\Debug\LabOneB.pdb
 C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\LabOneB\obj\Debug\LabOneB.csprojResolveAssemblyReference.cache
 C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\LabOneB\obj\Debug\LabOneB.exe
 C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\LabOneB\obj\Debug\LabOneB.pdb
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneB\bin\Debug\LabOneB.exe
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneB\bin\Debug\LabOneB.pdb
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneB\obj\Debug\LabOneB.csprojResolveAssemblyReference.cache
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneB\obj\Debug\LabOneB.exe
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneB\obj\Debug\LabOneB.pdb

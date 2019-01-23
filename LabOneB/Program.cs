@@ -18,10 +18,18 @@ namespace LabOneB {
             
             // Part Three
             Console.WriteLine("Sum of largest: " + (largestNum + largestData));
-            Console.WriteLine("[{0}]", string.Join(", ", data));
+
+            Console.Write("[");
+            for (var index = 0; index < data.Length; index++)
+            {
+                var num = data[index];
+                Console.Write(num + " ");
+            }
+
+            Console.Write("]\n");
             
             // Part Four
-            Console.WriteLine(LongestPositiveStreak(new []{4,5,0,2,-1,88,78,66,-6}));
+            Console.WriteLine("Longest Positive Streak: " + LongestPositiveStreak(data));
 
         }
 
@@ -39,22 +47,35 @@ namespace LabOneB {
             return fillMe;
         }
 
-        private static int LongestPositiveStreak(int[] streakArray) {
+        private static int LongestPositiveStreak(int[] streakArray)
+        {
 
             var longestStreak = 0;
             var streak = 0;
 
-            foreach (var num in streakArray) {
+            for (var index = 0; index < streakArray.Length; index++)
+            {
+                var num = streakArray[index];
                 if (num > 0) {
                     streak++;
                 }
-                else {
-                    longestStreak = streak;
+                else
+                {
+                    if (streak > longestStreak)
+                    {
+                        longestStreak = streak;
+                    }
+                    
                     streak = 0;
                 }
             }
 
-            return streak > longestStreak ? streak : longestStreak;
+            if (streak > longestStreak)
+            {
+                longestStreak = streak;
+            }
+
+            return longestStreak;
         }
     }
 }

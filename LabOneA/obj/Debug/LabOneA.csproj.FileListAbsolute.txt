@@ -3,3 +3,14 @@ C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\LabOneA\bin\Debug\LabOneA.pdb
 C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\LabOneA\obj\Debug\LabOneA.csprojResolveAssemblyReference.cache
 C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\LabOneA\obj\Debug\LabOneA.exe
 C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\LabOneA\obj\Debug\LabOneA.pdb
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneA\bin\Debug\LabOneA.exe
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneA\bin\Debug\LabOneA.pdb
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneA\bin\Debug\mscorlib.dll
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneA\bin\Debug\normidna.nlp
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneA\bin\Debug\normnfc.nlp
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneA\bin\Debug\normnfd.nlp
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneA\bin\Debug\normnfkc.nlp
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneA\bin\Debug\normnfkd.nlp
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneA\obj\Debug\LabOneA.csprojResolveAssemblyReference.cache
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneA\obj\Debug\LabOneA.exe
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabOneA\obj\Debug\LabOneA.pdb
