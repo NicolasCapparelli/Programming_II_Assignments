@@ -3,19 +3,19 @@ using System;
 namespace LabTwoA {
     public class Faculty : Employee {
 
-        private string officeHours;
-        private string rank;
+        private string _officeHours;
+        private string _rank;
 
         public Faculty(PersonFactory pFactory) : base(pFactory) {
-            officeHours = pFactory.OfficeValue ?? "";
-            rank = pFactory.RankValue ?? "";
+            _officeHours = pFactory.OfficeValue ?? "";
+            _rank = pFactory.RankValue ?? "";
         }
         
         public override void DisplayData() {
             base.DisplayData();
-            Console.WriteLine("\tOffice Hours: " + officeHours);
-            Console.WriteLine("\tRank: " + rank);
-            Console.WriteLine("\tObject Type: FacultyMember");
+            Console.WriteLine("\tOffice Hours: " + _officeHours);
+            Console.WriteLine("\tRank: " + _rank);
+            Console.WriteLine("\tObject Type: Faculty");
             Console.WriteLine();
         }
     }

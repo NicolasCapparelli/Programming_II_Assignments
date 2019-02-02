@@ -7,15 +7,15 @@ namespace LabTwoA {
             Freshman, Sophomore, Junior, Senior
         }
 
-        public Status classStatus;
+        private Status _classStatus;
 
         public Student(PersonFactory pFactory) : base(pFactory) {
-            classStatus = pFactory.ClassStatusValue ?? Status.Freshman;
+            _classStatus = pFactory.ClassStatusValue ?? Status.Freshman;
         }
 
         public override void DisplayData() {
             base.DisplayData();
-            Console.WriteLine("\tClass Status: " + classStatus);
+            Console.WriteLine("\tClass Status: " + _classStatus);
             Console.WriteLine("\tObject Type: Student");
             Console.WriteLine();
         }
