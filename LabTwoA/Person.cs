@@ -10,11 +10,11 @@ namespace LabTwoA {
         private string phoneNumber;
         private string email;
 
-        public Person(string name, string address, string phoneNumber, string email) {
-            this.name = name;
-            this.address = address;
-            this.phoneNumber = phoneNumber;
-            this.email = email;
+        public Person(PersonFactory pFactory) {
+            name = pFactory.NameValue ?? "";
+            address = pFactory.AddressValue ?? "";
+            phoneNumber = pFactory.PhoneNumberValue ?? "";
+            email = pFactory.EmailValue ?? "";
         }
         
         public virtual void DisplayData(){

@@ -6,17 +6,16 @@ namespace LabTwoA {
         public enum Status {
             Freshman, Sophomore, Junior, Senior
         }
-        
-        private readonly Status _classStatus;
-        
-        public Student(string name, string address, string phoneNumber, string email, Status status) : 
-            base(name, address, phoneNumber, email) {
-            _classStatus = status;
+
+        public Status classStatus;
+
+        public Student(PersonFactory pFactory) : base(pFactory) {
+            classStatus = pFactory.ClassStatusValue ?? Status.Freshman;
         }
 
         public override void DisplayData() {
             base.DisplayData();
-            Console.WriteLine("\tClass Status: " + _classStatus);
+            Console.WriteLine("\tClass Status: " + classStatus);
             Console.WriteLine("\tObject Type: Student");
             Console.WriteLine();
         }

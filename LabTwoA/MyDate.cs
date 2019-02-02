@@ -7,7 +7,7 @@ namespace LabTwoA {
         private int month;
         private int day;
 
-        public MyDate(int month, int day, int year) {
+        public MyDate(int day, int month, int year) {
             this.year = year;
             this.month = month;
             this.day = day;
