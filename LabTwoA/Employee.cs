@@ -21,8 +21,6 @@ namespace LabTwoA {
             Console.WriteLine("\tOffice: " + _office);
             Console.WriteLine("\tSalary: " + $"{_salary:C}");
             Console.WriteLine("\tDate Hired: " + _dateHired.getDate());
-            Console.WriteLine("\tObject Type: Employee");
-            Console.WriteLine();
         }
     }
 }

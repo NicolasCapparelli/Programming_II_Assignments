@@ -13,7 +13,6 @@ namespace LabTwoA {
         public override void DisplayData() {
             base.DisplayData();
             Console.WriteLine("\tTitle: " + _title);
-            Console.WriteLine("\tObject Type: Staff");
             Console.WriteLine();
         }
     }

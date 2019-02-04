@@ -22,6 +22,7 @@ namespace LabTwoA {
             Console.WriteLine("\tAddress: " + address);
             Console.WriteLine("\tPhone Number: " + phoneNumber);
             Console.WriteLine("\tEmail Address: " + email);
+            Console.WriteLine("\tObject Type: " + GetType());
         }
 
     }

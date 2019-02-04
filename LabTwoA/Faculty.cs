@@ -15,7 +15,6 @@ namespace LabTwoA {
             base.DisplayData();
             Console.WriteLine("\tOffice Hours: " + _officeHours);
             Console.WriteLine("\tRank: " + _rank);
-            Console.WriteLine("\tObject Type: Faculty");
             Console.WriteLine();
         }
     }

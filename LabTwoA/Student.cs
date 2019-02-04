@@ -16,7 +16,6 @@ namespace LabTwoA {
         public override void DisplayData() {
             base.DisplayData();
             Console.WriteLine("\tClass Status: " + _classStatus);
-            Console.WriteLine("\tObject Type: Student");
             Console.WriteLine();
         }
     }
