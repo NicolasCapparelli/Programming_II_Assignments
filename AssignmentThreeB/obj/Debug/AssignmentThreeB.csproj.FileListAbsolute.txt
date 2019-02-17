@@ -1,0 +1,13 @@
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\AssignmentThreeB\obj\Debug\AssignmentThreeB.csprojResolveAssemblyReference.cache
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\AssignmentThreeB\obj\Debug\MainWindow.g.cs
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\AssignmentThreeB\obj\Debug\App.g.cs
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\AssignmentThreeB\obj\Debug\AssignmentThreeB_MarkupCompile.cache
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\AssignmentThreeB\obj\Debug\MainWindow.baml
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\AssignmentThreeB\obj\Debug\AssignmentThreeB.g.resources
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\AssignmentThreeB\obj\Debug\AssignmentThreeB.Properties.Resources.resources
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\AssignmentThreeB\obj\Debug\AssignmentThreeB.csproj.GenerateResource.Cache
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\AssignmentThreeB\bin\Debug\AssignmentThreeB.exe.config
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\AssignmentThreeB\bin\Debug\AssignmentThreeB.exe
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\AssignmentThreeB\bin\Debug\AssignmentThreeB.pdb
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\AssignmentThreeB\obj\Debug\AssignmentThreeB.exe
+C:\Users\Nico\RiderProjects\KSU_Assingments_Cs\AssignmentThreeB\obj\Debug\AssignmentThreeB.pdb

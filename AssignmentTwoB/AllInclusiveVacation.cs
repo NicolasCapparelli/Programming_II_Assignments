@@ -7,7 +7,7 @@
  * Assignment#: 2
  */
 
-namespace AssignmentTwoA {
+namespace AssignmentTwoB {
     public class AllInclusiveVacation : Vacation {
         public string Brand { get; set; }
         public int Rating { get; set; }

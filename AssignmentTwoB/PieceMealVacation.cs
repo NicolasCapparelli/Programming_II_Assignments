@@ -8,7 +8,7 @@
  */
 
 using System.Collections.Generic;
-namespace AssignmentTwoA {
+namespace AssignmentTwoB {
     public class PieceMealVacation : Vacation {
 
         public Dictionary<string, int> costMap = new Dictionary<string, int>() {

@@ -7,7 +7,7 @@
  * Assignment#: 2
  */
 
-namespace AssignmentTwoA {
+namespace AssignmentTwoB {
     public abstract class Vacation {
         public int budget;
         public string destination;

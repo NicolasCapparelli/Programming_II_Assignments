@@ -8,11 +8,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTwoA", "LabTwoA\LabTwoA.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentOneB", "AssignmentOneB\AssignmentOneB.csproj", "{F90C71D2-4C2B-412C-B957-90DF58EF96C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentTwoA", "AssignmentTwoA\AssignmentTwoA.csproj", "{38EC8380-7032-437F-9BCC-985FB87BB2EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentTwoB", "AssignmentTwoB\AssignmentTwoB.csproj", "{38EC8380-7032-437F-9BCC-985FB87BB2EC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTwoB", "LabTwoB\LabTwoB.csproj", "{0FA876F3-350B-4D72-ACD1-0A21AB93E26C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabThreeA", "LabThreeA\LabThreeA.csproj", "{F774BE49-72B0-4987-93ED-8D4836830DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentThreeB", "AssignmentThreeB\AssignmentThreeB.csproj", "{E1F23F13-B09C-4A3B-BA9B-88138D1ED807}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +50,9 @@ Global
 		{F774BE49-72B0-4987-93ED-8D4836830DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F774BE49-72B0-4987-93ED-8D4836830DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F774BE49-72B0-4987-93ED-8D4836830DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F23F13-B09C-4A3B-BA9B-88138D1ED807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F23F13-B09C-4A3B-BA9B-88138D1ED807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F23F13-B09C-4A3B-BA9B-88138D1ED807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F23F13-B09C-4A3B-BA9B-88138D1ED807}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
