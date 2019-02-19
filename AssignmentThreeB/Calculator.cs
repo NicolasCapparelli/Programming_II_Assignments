@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace AssignmentThreeB {
@@ -61,5 +62,18 @@ namespace AssignmentThreeB {
             // Once all operations are complete, the only value left is the answer
             return double.Parse(_values[0]);
         }
+
+        public List<int> findAllInstancesOf(string target, string within) {
+
+            // TODO: left off here
+            var s = "012*45*78*";
+            var index = s.IndexOf("*");
+            Console.Out.WriteLine(index);
+            index = s.IndexOf("*", index + 1);
+            Console.Out.WriteLine(index);
+            
+            return new List<int>();
+        }
+
     }
 }
