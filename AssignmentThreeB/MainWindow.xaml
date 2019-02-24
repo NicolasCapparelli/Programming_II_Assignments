@@ -1,4 +1,13 @@
-﻿<Window x:Class="AssignmentThreeB.MainWindow"
+﻿<!-- 
+ Class: CSE 1322L
+ Section: 07
+ Term: Spring
+ Instructor: Kevin Markley
+ Name: Nicolas Capparelli
+ Assignment#: 3B
+ -->
+
+<Window x:Class="AssignmentThreeB.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"

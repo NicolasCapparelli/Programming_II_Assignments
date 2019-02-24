@@ -3,13 +3,21 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 
+/**
+ * Class: CSE 1322L
+ * Section: 07
+ * Term: Spring
+ * Instructor: Kevin Markley
+ * Name: Nicolas Capparelli
+ * Assignment#: 3B
+ */
+
 namespace AssignmentThreeB {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow {
         
-        // TODO: Account for if user tries to operate on an answer
         private readonly Calculator _calculator = new Calculator();
         private string currentOperand = "";
         
@@ -37,8 +45,17 @@ namespace AssignmentThreeB {
         private void FunctionPress(object sender, RoutedEventArgs e) {
 
             var s = ((Button) sender).Content.ToString();
-            FieldPresent.Text = "0";
             
+
+            if (FieldEquation.Text.Contains("=")) {
+                FieldEquation.Text = "";
+                currentOperand = FieldPresent.Text;
+                FieldPresent.Text = "";
+            }
+            else {
+                FieldPresent.Text = "0";
+            }
+
             switch (s) {
                 case "C":
                     _calculator.Clear();
@@ -50,7 +67,6 @@ namespace AssignmentThreeB {
                 case "⌫":
 
                     if (FieldEquation.Text.Contains("=")) {
-                        // TODO: Figure out why this still sets FieldPresent.Text to 0
 
                     } else if (currentOperand.Length > 1) {
                         currentOperand = currentOperand.Remove(currentOperand.Length - 1);
@@ -80,8 +96,10 @@ namespace AssignmentThreeB {
                 case "=":
                     _calculator.Load(currentOperand);
                     FieldEquation.Text += currentOperand + " =";
-                    FieldPresent.Text = _calculator.Calculate().ToString("N");
-                    
+
+                    var answer = _calculator.Calculate();
+                    FieldPresent.Text = answer % 1 == 0 ? answer.ToString("N0") : answer.ToString();
+
                     currentOperand = "";
                     _calculator.Clear();
                     break;

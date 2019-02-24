@@ -1,6 +1,16 @@
 using System;
 using System.Collections.Generic;
 
+/**
+ * Class: CSE 1322L
+ * Section: 07
+ * Term: Spring
+ * Instructor: Kevin Markley
+ * Name: Nicolas Capparelli
+ * Assignment#: 3B
+ */
+
+
 namespace AssignmentThreeB {
 
     public class Calculator {
@@ -18,9 +28,7 @@ namespace AssignmentThreeB {
 
         // Recursive method | Adheres to MDAS | Returns value of operation stored in _values
         public double Calculate() {
-            
-            // TODO: Account for left to right in multiplication and division
-            
+                        
             // Check if there are operations left to complete
             if (_values.Contains("*")) {
                 
@@ -61,18 +69,6 @@ namespace AssignmentThreeB {
             
             // Once all operations are complete, the only value left is the answer
             return double.Parse(_values[0]);
-        }
-
-        public List<int> findAllInstancesOf(string target, string within) {
-
-            // TODO: left off here
-            var s = "012*45*78*";
-            var index = s.IndexOf("*");
-            Console.Out.WriteLine(index);
-            index = s.IndexOf("*", index + 1);
-            Console.Out.WriteLine(index);
-            
-            return new List<int>();
         }
 
     }
