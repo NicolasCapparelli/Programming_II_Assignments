@@ -13,9 +13,6 @@ using System.Windows.Controls;
  */
 
 namespace AssignmentThreeB {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow {
         
         private readonly Calculator _calculator = new Calculator();
