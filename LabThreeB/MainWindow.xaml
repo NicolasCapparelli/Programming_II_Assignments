@@ -18,6 +18,7 @@
         <Button Click="CalculateClicked" HorizontalAlignment="Left" Margin="109,216,0,0" VerticalAlignment="Top" Content="Calculate" Width="107" Height="28" BorderThickness="0" Background="#FF68CBC6" Foreground="#FFE8E7E7" FontSize="14" HorizontalContentAlignment="Left" Padding="10,1,1,1" ScrollViewer.CanContentScroll="True"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="28" Margin="188,216,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="28" IsManipulationEnabled="False"/>
         <Label Content="=" HorizontalAlignment="Left" Margin="188,216,0,0" VerticalAlignment="Top" Height="28" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="28" Foreground="#FF68CBC6" IsManipulationEnabled="False"/>
+        
         <Button Click="ClearClicked" HorizontalAlignment="Left" Margin="109,258,0,0" VerticalAlignment="Top" Content="Clear" Width="107" Height="28" BorderThickness="0" Background="#FFCB6868" Foreground="#FFE8E7E7" FontSize="14" HorizontalContentAlignment="Left" Padding="10,1,1,1" ScrollViewer.CanContentScroll="True"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="28" Margin="188,258,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="28" IsManipulationEnabled="False"/>
         <Label Content="CE" HorizontalAlignment="Left" Margin="188,258,0,0" VerticalAlignment="Top" Height="28" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="28" Foreground="#FFCB6868" IsManipulationEnabled="False"/>
