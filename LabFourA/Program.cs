@@ -13,24 +13,32 @@ using System.Linq;
 namespace LabFourA {
     internal class Program {
         
-        public static void Main(string[] args) {
-            Console.WriteLine(cVowels("The string went over the moon"));
+        public static void Main(string[] args)
+        {
+
+            const string s = "The string went over the moon";
+            
+            Console.WriteLine("With loop: " +  loopVowels(s));
+            
+            Console.WriteLine("With recursion: " + RecursiveVowels(s));
+
+            const string p = "racecar";
+
+            Console.WriteLine("Palidrome: " + RecursivePalindrome(p));
         }
 
-        private static int recursiveVowels(string word) {
+        private static int RecursiveVowels(string word, int c=0) {
                
-            if (!(word.Length > 0)) {
-                return 0;
+            if (word.Length < 1) {
+                return c;
             }
 
-            if ("aeiou".Contains(word[0])) {
-                recursiveVowels("");
+            if ("aeiou".Contains(word[0])){
+                c++;
             }
-            
-            
-            return 0;
+            word = word.Remove(0,1);
+            return RecursiveVowels(word, c);
         }
-        
         
 
         private static int loopVowels(string word) {
@@ -47,31 +55,29 @@ namespace LabFourA {
 
             return totalVowels;
         }
-        
-        public static bool isVowel (char ch) {
-            if (ch=='a' || 
-                ch=='e' ||
-                ch=='i' ||
-                ch=='o' ||
-                ch=='u') 
+
+        private static bool RecursivePalindrome(string s){
+            s = s.ToLower();
+
+            if (s.Length < 1)
             {
                 return true;
-            } else{
-                return false;
             }
-        }
-        
-        public static int cVowels (string s) {
             
-            if (s.Length == 0) {
-                return 0;
-            } else {
-                int counter = cVowels(s.Substring(1));
-                if (isVowel(s[0])) {
-                    return 1+counter;
-                } else 
-                    return counter;
+            if (s[0].Equals(s[s.Length - 1]))
+            {
+                s = s.Remove(0, 1);
+
+                if (s.Length > 1)
+                {
+                    s = s.Remove(s.Length - 1);    
+                }
+                
+                return RecursivePalindrome(s);
             }
+            
+            return false;
+            
         }
     }
 }
