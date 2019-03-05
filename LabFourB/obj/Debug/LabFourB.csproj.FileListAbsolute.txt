@@ -1,0 +1,5 @@
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabFourB\bin\Debug\LabFourB.exe
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabFourB\bin\Debug\LabFourB.pdb
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabFourB\obj\Debug\LabFourB.csprojResolveAssemblyReference.cache
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabFourB\obj\Debug\LabFourB.exe
+C:\Users\cappa\RiderProjects\ksu_assignments_cs\LabFourB\obj\Debug\LabFourB.pdb

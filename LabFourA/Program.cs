@@ -15,16 +15,9 @@ namespace LabFourA {
         
         public static void Main(string[] args)
         {
-
             const string s = "The string went over the moon";
-            
-            Console.WriteLine("With loop: " +  loopVowels(s));
-            
+            Console.WriteLine("With loop: " +  LoopVowels(s));
             Console.WriteLine("With recursion: " + RecursiveVowels(s));
-
-            const string p = "racecar";
-
-            Console.WriteLine("Palidrome: " + RecursivePalindrome(p));
         }
 
         private static int RecursiveVowels(string word, int c=0) {
@@ -39,9 +32,8 @@ namespace LabFourA {
             word = word.Remove(0,1);
             return RecursiveVowels(word, c);
         }
-        
 
-        private static int loopVowels(string word) {
+        private static int LoopVowels(string word) {
             
             word = word.ToLower();
             
@@ -56,28 +48,6 @@ namespace LabFourA {
             return totalVowels;
         }
 
-        private static bool RecursivePalindrome(string s){
-            s = s.ToLower();
-
-            if (s.Length < 1)
-            {
-                return true;
-            }
-            
-            if (s[0].Equals(s[s.Length - 1]))
-            {
-                s = s.Remove(0, 1);
-
-                if (s.Length > 1)
-                {
-                    s = s.Remove(s.Length - 1);    
-                }
-                
-                return RecursivePalindrome(s);
-            }
-            
-            return false;
-            
-        }
+        
     }
 }
