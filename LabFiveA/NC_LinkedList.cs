@@ -7,7 +7,6 @@ namespace LabFiveA {
         public Node(int value) {
             this.value = value;
         }
-
     }
 
     public class NcLinkedList {
