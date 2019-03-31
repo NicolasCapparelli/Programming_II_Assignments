@@ -32,6 +32,7 @@
                     <MenuItem Header="File" FontSize="14" Height="24" Foreground="#FFBDBDBD">
                         <MenuItem Header="Open" Foreground="Black" Name="SubMenuItemOpen" Click="OpenFile"/>
                         <MenuItem Header="Save" Foreground="Black" Name="SubMenuItemSave" Click="SaveFile"/>
+                        <MenuItem Header="Save As..." Foreground="Black" Name="SubMenuItemSaveAs" Click="SaveFileAs"/>
                     </MenuItem>
                 </Menu.Items>
             </Menu>
