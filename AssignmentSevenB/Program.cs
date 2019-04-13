@@ -67,7 +67,7 @@ namespace AssignmentSevenB {
             var sortMe = new int[arr.Length];
             Array.Copy(arr, sortMe, arr.Length);
 
-            // Fires threads
+            // Splits array into maxThreads, then sorts each in parallel 
             var startIndex = 0; 
             var delta = sortMe.Length / maxThreads; // Amount of numbers that will be delegated to each thread
             for (var i = 0; i < maxThreads; i++) {
@@ -93,6 +93,7 @@ namespace AssignmentSevenB {
             }
             
 
+            // Joining the sorted arrays
             var result = sorted[0];
             for (var i = 1; i < sorted.Length; i++) {
                 result = result.Concat(sorted[i]).ToArray();
