@@ -61,7 +61,7 @@ namespace LabSixB {
             
             // Time conversion
             if (hour > 12) {
-                return (hour - 12).ToString() + ":" + twentyFourHourTime.Split(':')[1] + " PM";
+                return (hour - 12) + ":" + twentyFourHourTime.Split(':')[1] + " PM";
             } else if (hour == 12) {
                 return twentyFourHourTime + " PM"; 
             }
